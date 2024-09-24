@@ -16,8 +16,7 @@ export default function Home() {
                         style={{
                             width: `50%`,
                         }}>
-                        <img src={imgFem} alt="imgFeminina" width='100%' style={{
-                        }} />
+                        <img src={imgFem} alt="imgFeminina" width='100%' height="100%" />
                     </div>
 
                     <Info>
