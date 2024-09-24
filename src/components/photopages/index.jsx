@@ -45,7 +45,7 @@ export default function PageFem() {
         <>
             <Header>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaMMxVKb0821Bi4c06NVQxxgE4bRWvSnUeeoH3uz9dtr92cUnkOrqlMIRgz-Dp-YbzaGQ&usqp=CAU" alt="logo-kallifon" />
-                <Link to={"/homescreen"}><button>
+                <Link to={"/catalogoNew"}><button>
                     <span>Voltar</span>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
