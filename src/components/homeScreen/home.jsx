@@ -52,7 +52,7 @@ export default function Home() {
 
                     <Info>
                         <h1>Seção Masculina</h1>
-                        <Link to={"/"}><button>
+                        <Link to={"/catalogoNew"} onClick={() => alert("Não disponivel ainda")}><button>
                             <span>Ver</span>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
