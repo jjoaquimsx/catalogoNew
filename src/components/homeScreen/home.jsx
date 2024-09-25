@@ -16,7 +16,8 @@ export default function Home() {
                         style={{
                             width: `50%`,
                         }}>
-                        <img src={imgFem} alt="imgFeminina" width='100%' height="100%" />
+                        <img src={imgFem} alt="imgFeminina" width='100%' height="100%" style={{objectFit: "cover"
+                        }} />
                     </div>
 
                     <Info>
@@ -46,7 +47,7 @@ export default function Home() {
                         style={{
                             width: `50%`,
                         }}>
-                        <img src={imgMen} alt="imgFeminina" width='100%'  height="100%" />
+                        <img src={imgMen} alt="imgFeminina" width='100%'  height="100%" style={{objectFit: 'cover'}}/>
                     </div>
 
                     <Info>

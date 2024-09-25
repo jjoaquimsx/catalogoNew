@@ -30,6 +30,10 @@ export const Arcticle = styled.article`
     overflow: hidden;
     background-color: #8C3A60;
     display: flex;
+
+    div > img{
+      object-fit: cover;
+    }
 `;
 
 export const Info = styled.section`

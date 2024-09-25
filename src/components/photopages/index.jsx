@@ -71,7 +71,7 @@ export default function PageFem() {
 
                 {itemFem.map((item) => (
                     <Box key={item.id} >
-                        <img src={item.img} alt="" onClick={() => openModal(item.img)}/>
+                        <img src={item.img} alt="" onClick={() => openModal(item.img)} style={{objectFit: "cover"}}/>
                     </Box>
                 ))}
 
@@ -84,7 +84,7 @@ export default function PageFem() {
                 {
                     itemFem2.map((item) => (
                         <Box2 key={item.id} >
-                            <img src={item.img} alt="" onClick={() => openModal(item.img)}/>
+                            <img src={item.img} alt="" onClick={() => openModal(item.img)} style={{objectFit: "cover"}}/>
                         </Box2>
                     ))
                 }
@@ -97,7 +97,7 @@ export default function PageFem() {
                     className="full-screen"
                     overlayClassName="overlay"
                     >
-                        <img src={image} alt="" className="fullscreen" />
+                        <img src={image} alt="" className="fullscreen" style={{objectFit: "cover"}}/>
                         <button onClick={closeModal} className="closebutton">
                     <span>Voltar</span>
                     <svg

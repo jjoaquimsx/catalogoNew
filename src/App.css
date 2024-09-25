@@ -9,3 +9,7 @@ body{
   background-color: aliceblue;
   overflow-x: hidden;
 }
+
+img{
+  object-fit: cover;
+}

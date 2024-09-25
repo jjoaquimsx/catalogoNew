@@ -16,6 +16,11 @@
 
 body{
     overflow-x: hidden;
+    max-width: 100%;
+
+    img{
+        object-fit: cover;
+    }
 }
 
 .fullscreen {
