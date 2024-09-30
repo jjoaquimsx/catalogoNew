@@ -52,8 +52,7 @@ button:active {
 }
 `;
 
-export const Container = styled.nav`
-    width: 100vw;
+export const Container = styled.section`
     padding: 30px 30px;
     display: flex;
     gap: 20px;
