@@ -210,6 +210,7 @@ button:active {
     display: flex;
     gap: 20px;
     transition: .8s ease;
+    overflow: hidden;
 `,Ig=Xe.div`
     max-width: 150px;
     max-height: 200px;
