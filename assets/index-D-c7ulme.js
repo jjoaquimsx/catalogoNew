@@ -217,8 +217,10 @@ button:active {
     display: flex;
     gap: 20px;
     transition: .8s ease;
+    overflow-y: hidden;
     img{
         width: 100%;
+        overflow: hidden;
 }
 `,Ag=Xe.button`
     background-color: rgba(0, 0, 0, .5);
