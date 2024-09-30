@@ -58,7 +58,7 @@ export const Container = styled.nav`
     display: flex;
     gap: 20px;
     transition: .8s ease;
-    overflow: hidden;
+    overflow-x: hidden;
 `;
 
 export const Box = styled.div`
