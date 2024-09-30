@@ -6,9 +6,9 @@ import PageFem from "./components/photopages/index.jsx";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/catalogoNew">
         <Routes>
-          <Route path="/catalogoNew" element={<Home />}></Route>
+          <Route path="/" element={<Home />}></Route>
           <Route path="/catalogoFeminino" element={<PageFem></PageFem>}></Route>
         </Routes>
       </Router>
