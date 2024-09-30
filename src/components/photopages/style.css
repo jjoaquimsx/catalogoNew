@@ -28,6 +28,10 @@ body{
     border-radius: 10px;
 }
 
+div{
+    overflow-y: hidden;
+}
+
 .closebutton {
     position: fixed;
     top: 15px;

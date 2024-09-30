@@ -67,8 +67,10 @@ export const Box = styled.div`
     display: flex;
     gap: 20px;
     transition: .8s ease;
+    overflow-y: hidden;
     img{
         width: 100%;
+        overflow: hidden;
 }
 `;
 
