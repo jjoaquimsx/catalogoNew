@@ -204,8 +204,7 @@ button:hover svg {
 button:active {
   transform: scale(0.95);
 }
-`,Lg=Xe.nav`
-    width: 100vw;
+`,Lg=Xe.section`
     padding: 30px 30px;
     display: flex;
     gap: 20px;
